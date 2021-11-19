@@ -1,7 +1,7 @@
 # ogd-vs-sgd
 
 This repository contains an implementation of the *vanilla gradient descent* algorithm and the *stochastic gradient descent* algorithm. The algorithm implementations are inspired from [Elad Hazan's book on Online Convex Optimization](https://arxiv.org/abs/1909.05207) (see the implementations of SVM in the book).
-The purpose of the code is to do binary classification on the classes in the MNIST and CIFAR-10 datasets. Currently, we have included only the splitted MNIST dataset; however CIFAR-10 can be included with ease. 
+The purpose of the code is to do binary classification (using the SVM algorithm) on the classes in the MNIST and CIFAR-10 datasets. Currently, we have included only the splitted MNIST dataset; however CIFAR-10 can be included with ease. 
 
 # How to run the code?
 
