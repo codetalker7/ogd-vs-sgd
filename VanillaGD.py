@@ -49,6 +49,5 @@ class VanillaGD(GD):
 
         #set and print trainingTime
         self.trainingTime = time.time() - starttime
-        print("OGD Training time: " + str(self.trainingTime))
 
     

@@ -48,4 +48,3 @@ class SGD(GD):
 
         #set and print trainingTime
         self.trainingTime = time.time() - starttime
-        print("SGD Training time: " + str(self.trainingTime))
