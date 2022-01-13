@@ -14,4 +14,8 @@ The `mnist_binary` directory contains training and test data for all 45 combinat
 
 # The three results
 
-As can be seen from the three examples, the results are as expected: vanilla GD takes a much longer time than SGD, and ofcourse has a higher accuracy on the test data than SGD (if run with the same parameters). However, in two of the three cases, their accuracies are comparable, and SGD beats vanilla GD in the required running time. 
+As can be seen from the three examples, the results are as expected: vanilla GD takes a much longer time than SGD, and has a higher accuracy on the test data than SGD (if run with the same parameters). However, in two of the three cases, their accuracies are comparable, and SGD beats vanilla GD in the required running time. 
+
+# Results for all 45 combinations
+The `./mnist_binary_results` directory contains a `results.md` file, which contains the experiment results for all 
+45 combinations of the possible binary classifications in MNIST dataset. The table contains the accuracies and running times of the OGD and SGD algorithms.
